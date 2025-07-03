@@ -1,0 +1,14 @@
+.header {
+    min-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}

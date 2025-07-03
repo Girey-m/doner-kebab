@@ -1,0 +1,17 @@
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    display: block;
+    padding: 10px;
+}
+
+.link:hover {
+    color: red;
+}
+
