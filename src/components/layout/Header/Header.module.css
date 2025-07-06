@@ -1,14 +1,21 @@
 .header {
-    min-width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: center;
+    border-bottom: 1px solid red;
 }
 
 .container {
+    margin: 0 10px;
+}
+
+.header_wrapper {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 100%;
+}
+
+.container_icons {
+    display: flex;
+    gap: 15px;
 }

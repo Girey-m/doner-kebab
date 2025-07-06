@@ -1,4 +1,5 @@
 import styles from "@/components/Navigation/Navigation.module.css";
+import Link from "next/link";
 export default function Navigation() {
   return (
     <nav>
@@ -19,9 +20,9 @@ export default function Navigation() {
         ].map((el) => {
           return (
             <li key={el.name}>
-              <a className={styles.link} href={el.path}>
+              <Link className={styles.link} href={el.path}>
                 {el.name}
-              </a>
+              </Link>
             </li>
           );
         })}
